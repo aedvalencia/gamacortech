@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+body.login{
+    background: url("../images/login-bg.jpg")no-repeat #fff;
+    border-top: 10px solid #937736;
+    height: 100%;
+}
+body.login footer{
+    background-color: #898989;
+    padding: 20px 0;
+}
+body.login footer > p{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+}
+.loginwrap{
+    background: url("../images/logo-opaque.png") no-repeat scroll left center rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -o-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    margin: 10% auto;
+    overflow: hidden;
+    padding: 85px 20px;
+    width: 700px;
+}
+    .loginwrap form{
+        
+    }
+        .loginwrap form input{
+            font-size: 14px;
+            padding: 10px 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .loginwrap form .submit{
+            background-color: #73725c;
+            padding: 10px 20px;
+            color: #fff;
+            border: none;
+        }
+        
+/** ADMIN SIDE **/
+.logowrap{
+    background: url(../images/login-bg.jpg) no-repeat center center;
+    text-align: center;
+}
+    .logowrap img{
+        
+    }
+nav{
+    background-color: #333;
+    overflow: hidden;
+    border-bottom: 6px solid #999;
+    width: 100%;
+}
+    nav ul{
+        display: block;
+        margin: 0;
+    }
+        nav ul > li:first-child{
+            border-left: 1px solid #999;
+        }
+        nav ul > li{
+            float: left;
+            list-style: none;
+            border-right: 1px solid #999;
+        }
+            nav ul > li > a{
+                display: block;
+                padding: 15px 20px;
+                color: #fff;
+            }
+                nav ul > li > a:hover{
+                    color: #fff;
+                    background-color: #999;
+                    transition: all 0.3s ease-in 0s;
+                }
+.addbtn{
+    display: block;
+    color: #fff;
+    background-color: #B1A27B;
+    overflow: hidden;
+    padding: 12px 15px;
+    float: left;
+}
+.cancelbtn{
+    display: block;
+    color: #fff;
+    background-color: #666;
+    overflow: hidden;
+    padding: 12px 15px;
+    float: left;
+    margin-left: 5px;
+}
+    .addbtn:hover, .cancelbtn:hover{
+        color: #fff;
+        opacity: 0.8;
+        transition: all 0.3s ease-in 0s;
+    }
+.logout{
+    display: block;
+    padding: 14px 15px;
+    color: #fff;
+}
+    .logout:hover{
+        color: #fff;
+        background-color: #999;
+        transition: all 0.3s ease-in 0s;
+    }
